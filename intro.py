@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread(filename=r'Obrazy/captcha.png')
+image = cv2.imread(filename=r'obrazy/captcha.png')
 img = image.copy()
 
 # cv2.imshow(winname='image', mat=image)
