@@ -40,4 +40,3 @@ cv2.waitKey(0)
 
 perimeter = cv2.arcLength(curve=contours[idx_flag_area], closed=True)
 print(perimeter)
-
